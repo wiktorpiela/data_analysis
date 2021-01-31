@@ -1,10 +1,26 @@
 ---
-title: "Google Play store - exploration"
-author: "Wiktor Piela"
-date: "17 01 2021"
-output:
-   html_document:
-    keep_md: TRUE
+```{r, include=FALSE]
+knitr::opts_chunk$set(
+  warning = FALSE,
+  error = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  out.width = "70%",
+  fig.width = 6,
+  fig.asp = 0.618)
+library("tidyverse")
+library("lubridate")
+library("ggplot2")
+library("skimr")
+library("descr")
+library("scales")
+library("viridis")
+library("ggthemr")
+library("mosaic")
+library("knitr")
+library("kableExtra")
+ggthemr("fresh")
+```
 
 ---
 
