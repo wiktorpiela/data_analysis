@@ -14,8 +14,8 @@ investigate some of factors which occurred.
 
 # Turnout and election results in poviats
 
-As we know very well Overall voter turnout was 68.18 percent and was one
-of the highest h in the history of Poland after 1989. In this election
+As we know very well overall voter turnout was 68.18 percent and was one
+of the highest in the history of Poland after 1989. In this election
 were cast in total 20636635 valid votes. Basically, the turnout is
 neutral measure, indicating how much election is important for citizens
 and that they want to change or keep country politics, however in mass
@@ -40,7 +40,7 @@ Without extreme results, both of variables on the same chart seems to be
 data cloud with no relationship - in addition we can mention, that
 rejected observations is equal 112, what gives us proportionally 56 for
 each extremum - equally 14.74 percent of all observations. Because of
-only those observations could confirm any possible relationship, however
+only those observations could confirm any possible relationship; however,
 there are too few - it means that most likely there are no relationship
 between turnout and results of both of candidates in poviats and
 advocated by mass media platitudes related to this subject is only a
@@ -50,10 +50,10 @@ myth.
 
 Sometimes it happens that election takes place when we are on vacation
 or while traveling and if we want to cast our vote outside the place of
-check-in where we use to stay regurarly, it is neccesary to get voting
+check-in where we use to stay regularly, it is necessary to get voting
 certificate to make possible to vote in other electoral district. This
 year it was proceeded with election during holiday season - 12 of July,
-thats why there were a lot of people who wanted to vote where they spent
+that's why there were a lot of people who wanted to vote where they spent
 vacation.
 
 <img src="election_2020_supplement_files/figure-gfm/voting certificate how many-1.png" style="display: block; margin: auto;" />
@@ -384,13 +384,13 @@ warmińsko-mazurskie
 
 </table>
 
-First of all it is important to mention that 2 of 3 outstanding provices
+First of all it is important to mention that 2 of 3 outstanding provinces
 are the most attractive holiday destinations (pomorskie and
 zachodniopomorskie) are located on the coast of the Baltic sea. In the
 third area, there are a lot of lakes and forests - thanks to that it is
 possible to inland sailing, hiking and camping.
 
-There,the most votes were cast on the basis of a voting certificate
+The most votes were cast there on the basis of a voting certificate
 (Trzaskowski won there), but let’s check if there is a correlation
 between the percentage of votes cast on the basis of the voting
 certificate and the result of a given candidate, did the tourists favour
@@ -399,7 +399,7 @@ one of the candidates?
 <img src="election_2020_supplement_files/figure-gfm/voting ceritificate trzaskoski duda-1.png" style="display: block; margin: auto;" />
 
 The relationship, that we assumed in here, seems to be more visible than
-related to previous investigated factor - turnout and probably is
+related to previous investigated factor - turnout and probably 
 exists. Let’s count what is the specific amount of correlation between
 share of voting certificate and results of each of candidate (x-axis has
 been logarithmed, and it is not linear actually that’s why I use
@@ -472,7 +472,7 @@ Trzaskowski
 </table>
 
 For sure, correlation is existing in this example, but it is not too
-significant - let’s cut and select only thos poviats where share of
+significant - let’s cut and select only those poviats where share of
 voting certificate votes was the highest and then calculate again.
 
 <table class=" lightable-classic" style="font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
@@ -545,7 +545,7 @@ Once we have eliminated poviats with more regular share of voting
 certificate, correlation increased significantly - and now it is
 obviously that it exists relationship between share of voting
 certificate cast in poviats where those share was higher than usually
-and results of each of candidate in the same plances. The share has an
+and results of each of candidate in the same places. The share has an
 impact as 17.62 percent on the candidate’s score in the poviat.
 
 If we consider this matter based on poviats divided by categories, it is
@@ -559,7 +559,7 @@ biggest support of electors in poviats with average and smaller share.
 **Insights**
 
   - correlation between share of votes cast on basis voting certificate
-    seems to be exist - especially in places, where this share was
+    seems to exist - especially in places, where this share was
     higher than usually
 
   - the opportunity to vote on the basis of the voting certificate was
@@ -577,19 +577,19 @@ impact on election results in poviats level.
 Having only above chart, it is very easy to notice that Duda got more
 votes in poviats, where share of invalid votes was higher - opposite
 phenomenon is able to catch in case of Trzaskowski’s results in poviats.
-So correlation seems to be existed, but not to big, because of no linear
+So correlation seems to exist, but not too big, because of no linear
 shape. Now, correlation of Spearman method is equal 0.19 and it is
 possible to claim that share of invalid votes in poviats has impact of
 3.61 percent.
 
 **Insight**
 
-  - It is not very strong correlation, however it exists most likely.
+  - It is not very strong correlation; however, it exists most likely.
 
 # Population and density
 
 In main report I mentioned that Trzaskowski won in 14 of 15 the biggest
-polish cities - it could mean that population of poviats (and every
+Polish cities - it could mean that population of poviats (and every
 other consituencies) are correlated with election results there. Let’s
 check that hypothesis that Trzaskowski have got higher results in more
 inhabited poviats than his opponent - President-in-Office Adnrzej Duda.
@@ -598,10 +598,10 @@ inhabited poviats than his opponent - President-in-Office Adnrzej Duda.
 It is clearly visible that in the population range from 30,000 to
 300,000 the amount of poviat inhabitants doesn’t matter for the election
 results, but once in constituency are more inhabitants than 300,000,
-something interesting occurred, because specific tendency appeard - the
+something interesting occurred, because specific tendency appeared - the
 points on the right side are the largest cities where Trzaskowski won,
 which I mentioned earlier. However we cannot definitely claim, that
-populantion of constituencies has direct impact on election results,
+population of constituencies has direct impact on election results,
 because the most of them don’t indicate any trend. To more investigate,
 my proposal is to check density of population.
 
@@ -612,7 +612,7 @@ that in poviats with a lower population density, Duda got more votes,
 the higher the population density, the higher the percentage of votes
 for Trzaskowski. About density of 500 inhabitants per 1km2, we have
 there bigger cities, with advantage of Trzaskowski and more significant
-tendency. Cut before we more investigate density matter, I present you
+tendency. Cut before we more investigate density matter, I present you a
 table where both of correlations are compared.
 
 <table class=" lightable-classic" style="font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
@@ -705,7 +705,7 @@ coefficient in table, that’s why it is worth to more investigate density
 matter. If we consider only poviats with density more than 500/km2 we
 will get value 0.21 of Spearman coefficient, it means stronger
 relationship. However it is not the end, because very significant could
-be fact, that this coefficient is inscreasing if we consider next range
+be fact, that this coefficient is increasing if we consider next range
 of population density, as below table shows:
 
 <table class=" lightable-classic" style="font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
@@ -980,7 +980,7 @@ relationship exists (not connected with results)
 **Other possible relatioships**
 
   - population density and share of votes cast on basis of voting
-    ceri=tificate
+    certificate
 
   - density and turnout
 
@@ -991,7 +991,7 @@ relationship exists (not connected with results)
 # Cities
 
 In general report I did basic analysis on election results in 15 the
-most inhabited cities in Poland and who on there. Then, the most
+most inhabited cities in Poland and who won there. Then, the most
 important insight was that liberal candidate (Trzaskowski) won in 14 of
 15 cities what shows unequivocal tendency. But now I consider the same
 matter but more expand and carefully having all of cities (not only 15
@@ -1004,7 +1004,7 @@ Trzaskowski didn’t win in every city, a significant difference in votes
 is visible only in really large cities, with more than 100,000
 inhabitants, there Duda got much less votes than his opponent. In small,
 regular and even large cities to 100,000 difference is impossible to
-notice any advantage and and there was no dominant candidate.
+notice any advantage and there was no dominant candidate.
 
 # Population of poviats and support for candidates
 
@@ -1020,7 +1020,7 @@ In the most inhabited poviats, Trzaskowski got much higher advantage
 counting in real votes cast there. However, even in the most liberal
 provinces like pomorskie and lubuskie, in less inhabited constituencies,
 the difference is about equal zero, and there is no big advantage of one
-of candidates. If we consider more consevative area of Poland, advantage
+of candidates. If we consider more conservative area of Poland, advantage
 of President-in-office Duda seems to be high everywhere, even in the
 largest poviats. So from above heatmap come two general insights:
 
@@ -1030,4 +1030,4 @@ largest poviats. So from above heatmap come two general insights:
   - results depends on region of Poland
 
 There is no specific indicator to show that, however having chart as
-above, we can extract some insight independly of any measure.
+above, we can extract some insight independently of any measure.
