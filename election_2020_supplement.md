@@ -548,11 +548,23 @@ certificate cast in poviats where those share was higher than usually
 and results of each of candidate in the same plances. The share has an
 impact as 17.62 percent on the candidate’s score in the poviat.
 
+If we consider this matter based on poviats divided by categories, it is
+possible to notice very quickly that liberal candidate won in
+constituencies, where the share was bigger than average reference of
+country overall - at the same time, his conservative opponent got the
+biggest support of electors in poviats with average and smaller share.
+
+<img src="election_2020_supplement_files/figure-gfm/heatmap voting certificate-1.png" style="display: block; margin: auto;" />
+
 **Insights**
 
   - correlation between share of votes cast on basis voting certificate
     seems to be exist - especially in places, where this share was
     higher than usually
+
+  - the opportunity to vote on the basis of the voting certificate was
+    usually used by people on vacation as well as students and citizens
+    of larger cities who are not checked in there.
 
 # Invalid votes
 
@@ -993,3 +1005,29 @@ is visible only in really large cities, with more than 100,000
 inhabitants, there Duda got much less votes than his opponent. In small,
 regular and even large cities to 100,000 difference is impossible to
 notice any advantage and and there was no dominant candidate.
+
+# Population of poviats and support for candidates
+
+As I have mentioned, presented and calculated before, it exists pretty
+significant correlation between population / density of poviats and
+results occurred there. Now, I divided all of constituencies by discrete
+variable based on population and compile with voivodeships where they
+are located.
+
+<img src="election_2020_supplement_files/figure-gfm/heatmap population and results-1.png" style="display: block; margin: auto;" />
+
+In the most inhabited poviats, Trzaskowski got much higher advantage
+counting in real votes cast there. However, even in the most liberal
+provinces like pomorskie and lubuskie, in less inhabited constituencies,
+the difference is about equal zero, and there is no big advantage of one
+of candidates. If we consider more consevative area of Poland, advantage
+of President-in-office Duda seems to be high everywhere, even in the
+largest poviats. So from above heatmap come two general insights:
+
+  - population of electoral districts is important and it has direct
+    impact, who has won there
+
+  - results depends on region of Poland
+
+There is no specific indicator to show that, however having chart as
+above, we can extract some insight independly of any measure.
